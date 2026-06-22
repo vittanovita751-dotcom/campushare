@@ -605,7 +605,7 @@ class _StudentHomeTabState extends State<StudentHomeTab> {
       child: Container(
         height: 100,
         decoration: BoxDecoration(
-          color: Colors.white,
+          color: Colors.blue,
           borderRadius: BorderRadius.circular(16),
           border: Border.all(color: Colors.grey.shade100),
           boxShadow: [
