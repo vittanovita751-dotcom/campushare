@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "82470000555",
+    "project_id": "campushare-668d9",
+    "storage_bucket": "campushare-668d9.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:82470000555:android:5e69e09919fb8ed9d924ee",
+        "android_client_info": {
+          "package_name": "com.example.campushare"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9elPeGhiIbfeCCBwKJoyvPVVGV-v1918"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
