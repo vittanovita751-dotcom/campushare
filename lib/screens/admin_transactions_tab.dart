@@ -53,7 +53,7 @@ class _AdminTransactionsTabState extends State<AdminTransactionsTab> {
   Widget build(BuildContext context) {
     final state = AdminState.instance;
 
-    // Filter transactions
+     
     final filteredTx = state.transactions.where((tx) {
       final matchesSearch = tx.itemName.toLowerCase().contains(_searchQuery.toLowerCase()) ||
           tx.borrower.toLowerCase().contains(_searchQuery.toLowerCase()) ||
