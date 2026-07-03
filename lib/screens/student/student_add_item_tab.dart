@@ -112,7 +112,7 @@ class _StudentAddItemTabState extends State<StudentAddItemTab> {
                   ),
                   const SizedBox(height: 16),
 
-                  // Location Field
+                  
                   TextFormField(
                     controller: _locationCtrl,
                     decoration: _buildInputDecoration('Lokasi Ambil (contoh: Kost Pondok Hijau / Lab A)', Icons.location_on_outlined),
@@ -123,7 +123,7 @@ class _StudentAddItemTabState extends State<StudentAddItemTab> {
                   ),
                   const SizedBox(height: 16),
 
-                  // Description Field
+                  
                   TextFormField(
                     controller: _descriptionCtrl,
                     maxLines: 4,
