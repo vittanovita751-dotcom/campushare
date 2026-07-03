@@ -257,7 +257,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
               controller: _alamatController,
               decoration: const InputDecoration(labelText: 'Alamat Tinggal', border: OutlineInputBorder()),
             ),
-            const SizedBox(height: 12),
+            const SizedBox(height: 13),
             DropdownButtonFormField<String>(
               initialValue: _selectedRole,
               decoration: const InputDecoration(border: OutlineInputBorder()),
