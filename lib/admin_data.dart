@@ -89,7 +89,7 @@ class AdminReport {
   });
 }
 
-// Notification Model Representation
+
 class AdminNotification {
   final int id;
   String title;
