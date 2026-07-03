@@ -108,7 +108,7 @@ class AdminNotification {
   });
 }
 
-// System settings classes
+
 class AppBanner {
   final int id;
   String title;
