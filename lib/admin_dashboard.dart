@@ -275,7 +275,7 @@ class _AdminDashboardShellState extends State<AdminDashboardShell> {
 
   Widget _buildHeader(bool isDesktop, int unreadCount) {
     return Container(
-      height: 70,
+      height: 71,
       padding: const EdgeInsets.symmetric(horizontal: 24),
       decoration: BoxDecoration(
         color: Colors.white,
