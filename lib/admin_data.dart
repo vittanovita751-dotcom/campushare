@@ -68,7 +68,7 @@ class AdminTransaction {
   });
 }
 
-// Report Model Representation
+
 class AdminReport {
   final int id;
   String reporter;
