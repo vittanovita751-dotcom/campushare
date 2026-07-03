@@ -478,7 +478,7 @@ class AdminState extends ChangeNotifier {
     notifyListeners();
   }
 
-  // Trigger dynamic simulation events (e.g. for demonstrating real-time updates)
+ 
   void simulateNewNotification() {
     final userEvents = [
       {'title': 'Pengguna Baru Terdaftar', 'msg': 'Diana Kusuma (NIM: 22.09.4320) mendaftar.', 'type': 'user'},
