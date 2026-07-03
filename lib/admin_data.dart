@@ -47,7 +47,7 @@ class AdminItem {
   });
 }
 
-// Transaction Model Representation
+ Transaction Model Representation
 class AdminTransaction {
   final String id;
   String itemName;
