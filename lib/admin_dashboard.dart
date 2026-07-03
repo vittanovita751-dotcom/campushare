@@ -212,7 +212,7 @@ class _AdminDashboardShellState extends State<AdminDashboardShell> {
                   color: const Color(0xFFF5F7FA), // Soft light grey canvas
                   child: Column(
                     children: [
-                      // Header Bar
+                       Header Bar
                       _buildHeader(isDesktop, unreadCount),
                       // Active screen area
                       Expanded(
