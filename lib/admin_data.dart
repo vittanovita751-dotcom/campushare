@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'student_data.dart';
 
-// User Model Representation
+
 class AdminUser {
   final int id;
   String name;
