@@ -86,7 +86,7 @@ class _StudentAddItemTabState extends State<StudentAddItemTab> {
                   ),
                   const SizedBox(height: 24),
 
-                  // Name Field
+                  
                   TextFormField(
                     controller: _nameCtrl,
                     decoration: _buildInputDecoration('Nama Barang', Icons.shopping_bag_outlined),
@@ -97,7 +97,7 @@ class _StudentAddItemTabState extends State<StudentAddItemTab> {
                   ),
                   const SizedBox(height: 16),
 
-                  // Category Selector
+                  
                   DropdownButtonFormField<String>(
                     value: _selectedCategory,
                     decoration: _buildInputDecoration('Kategori', Icons.category_outlined),
@@ -149,7 +149,7 @@ class _StudentAddItemTabState extends State<StudentAddItemTab> {
                   ),
                   const SizedBox(height: 28),
 
-                  // Submit Button
+                  
                   SizedBox(
                     width: double.infinity,
                     height: 50,
