@@ -26,7 +26,7 @@ class AdminUser {
   });
 }
 
-// Item Model Representation
+
 class AdminItem {
   final int id;
   String name;
