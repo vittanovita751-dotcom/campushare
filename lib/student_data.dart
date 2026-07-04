@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'admin_data.dart';
 
- User representation on mobile client
+
 class StudentUser {
   final int id;
   final String name;
@@ -24,7 +24,7 @@ class StudentUser {
   });
 }
 
- Student Notification representation
+ 
 class StudentNotification {
   final int id;
   final String title;
@@ -42,7 +42,7 @@ class StudentNotification {
 }
 
 
- Item representation on mobile client
+ 
 class StudentItem {
   final int id;
   final String name;
@@ -87,7 +87,7 @@ class StudentItem {
   }
 }
 
- Chat room and messages structures
+
 class ChatMessage {
   final String sender;
   final String text;
@@ -119,7 +119,7 @@ class StudentState extends ChangeNotifier {
     _initMockData();
   }
 
-   Active student session user details
+   
   StudentUser? currentUser;
   
   final List<StudentItem> items = [];
