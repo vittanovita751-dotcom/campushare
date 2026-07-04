@@ -154,7 +154,7 @@ class AdminState extends ChangeNotifier {
   final List<AppFaq> faqs = [];
   final List<AppPolicy> policies = [];
 
-  // Initialize all states
+ 
   void _initializeMockData() {
     // Categories
     categories.addAll(['Buku', 'Laptop', 'Proyektor', 'Kabel HDMI', 'Jas Laboratorium', 'Kendaraan']);
